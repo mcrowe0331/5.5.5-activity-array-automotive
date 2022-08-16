@@ -2,6 +2,9 @@
 //changed "./vehicle" from "./vehicleBaseClass"
 const VehicleModule = require("./vehicle").Vehicle
 
+
+//Car class that extends Vehicle class//
+//Add a constructor//
 class Car extends VehicleModule {
     constructor(make, model, year, color, mileage) {
         super(make, model, year, color, mileage);
